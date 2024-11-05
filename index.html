@@ -3,55 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChordFlow</title>
+    <title>Chordflow</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-* {
-    font-family: 'Noto Sans JP';
-}
     </style>
 </head>
 <body>
-    <h1>ChordFlow</h1>
-    <h2>コード進行によるおすすめシステム</h2>
-    <div>説明説明</div>
-    <select name="song1" id="song1"></select>
-    <select name="song2" id="song2"></select>
-    <button id="getSelectedSongs">類似度を計算</button>
-    <div id="result"></div>
-    <script>
-fetch('list.json')
-  .then(response => response.json())
-  .then(data => {
-    const selectSong1 = document.getElementById('song1');
-    const selectSong2 = document.getElementById('song2');
+    <header>
+        <h1>Chordflow</h1>
+    </header>
+    <article>
+        <div class="h2">
+            <div><h2>ABOUT</h2></div>
+        </div>
+        <div>
+            Chordflowとはコード進行の類似性という新たな視点から、あなたの好みに合った音楽を提案することを目標としたシステムです。
+        </div>
+        <div class="h2">
+            <div><h2>MENU</h2></div>
+        </div>
+        <div id="menu">
+            <div>
+                <a href="similarity.html">2種類のコード進行の類似度を調べる</a>
+            </div>
+            <div>
+                <a href="">選択した曲に似た曲をランキングで表示する</a>
+            </div>
+        </div>
+        <div class="h2">
+            <div><h2>COMMENT</h2></div>
+        </div>
+    </article>
+    <footer>
 
-    // list.json内のtitleをループして<select>に<option>を追加
-    data.forEach(song => {
-      const option1 = document.createElement('option');
-      option1.value = song.id;
-      option1.textContent = song.title;
-      selectSong1.appendChild(option1);
-
-      const option2 = document.createElement('option');
-      option2.value = song.id;
-      option2.textContent = song.title;
-      selectSong2.appendChild(option2);
-    });
-  })
-  .catch(error => {
-    console.error('Error loading the JSON file:', error);
-  });
-
-   document.getElementById('getSelectedSongs').addEventListener('click', () => {
-        let selectedSong1 = -1;
-        let selectedSong2 = -1;
-        selectedSong1 = document.getElementById('song1').value;
-        selectedSong2 = document.getElementById('song2').value;
-
-        const resultUrl = 'index.html?result=1&song1=' + selectedSong1 + '&song2=' + selectedSong2;
-        console.log(resultUrl);
-        window.location.href = resultUrl;
-      });
-    </script>
+    </footer>
 </body>
 </html>
