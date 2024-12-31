@@ -12,23 +12,26 @@
 
 <body>
   <h1>ChordFlow</h1>
-  <div class="h2">
-    <div>
-      <h2>2種類のコード進行の類似度を調べる</h2>
+   <article>
+    <div class="h2">
+      <div>
+       <h2>2種類のコード進行の類似度を調べる</h2>
+      </div>
     </div>
-  </div>
-  <div id="select">
-    <div>
-      <p>このページでは、選択した2曲のサビのコード進行の類似度を計算できます。</p>
-      <p>下のプルダウンからそれぞれ異なる曲を選択し、「類似度を計算」ボタンをクリックしてください。</p>
+    <div id="select">
+      <div>
+       <p>このページでは、選択した2曲のサビのコード進行の類似度を計算できます。</p>
+       <p>下のプルダウンからそれぞれ異なる曲を選択し、「類似度を計算」ボタンをクリックしてください。</p>
+      </div>
+     <select name="song1" id="song1"></select>
+     <select name="song2" id="song2"></select>
+     <button id="getSelectedSongs">類似度を計算</button>
     </div>
-    <select name="song1" id="song1"></select>
-    <select name="song2" id="song2"></select>
-    <button id="getSelectedSongs">類似度を計算</button>
-  </div>
-  <div id="result"></div>
-  <div id="error"></div>
-  <div id="back"></div>
+    <div id="result"></div>
+    <div id="error"></div>
+    <div id="back"></div>
+   </article>
+
   <script src="similarity.js"></script>
   <script>// ページ読み込み時にパラメータをチェックする
     window.addEventListener('DOMContentLoaded', () => {
