@@ -29,7 +29,7 @@
   <div id="result"></div>
   <div id="error"></div>
   <div id="back"></div>
-  <script src="similarity/similarity.js"></script>
+  <script src="similarity.js"></script>
   <script>// ページ読み込み時にパラメータをチェックする
     window.addEventListener('DOMContentLoaded', () => {
       // URLのパラメータを取得
@@ -75,7 +75,7 @@
               document.getElementById('result').innerHTML = song1Data.title + ' と ' + song2Data.title + ' のコード進行の類似度は <div id="similarity-result">' + (Math.round(similarity(a, b) * 10000) / 10000) + '</div> です。';
               console.log('Chord progression similarity');
               document.getElementById('select').innerHTML = '';
-              document.getElementById('back').innerHTML = '<a href="similarity/index.html">戻る</a>';
+              document.getElementById('back').innerHTML = '<a href="index.html">戻る</a>';
             } else {
               console.error('No song found with the provided song1 ID');
             }
@@ -85,7 +85,7 @@
             // 0以上の整数でない場合の処理
             document.getElementById('select').innerHTML = '';
             document.getElementById('error').innerHTML = '<div>エラーが発生しました。曲を正しく選んでいるか確認してください。</div>';
-            document.getElementById('back').innerHTML = '<a href="similarity/index.html">戻る</a>';
+            document.getElementById('back').innerHTML = '<a href="index.html">戻る</a>';
           }
         })
         .catch(error => {
