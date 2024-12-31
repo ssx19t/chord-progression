@@ -1,36 +1,61 @@
+body, h1, h2, article {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-* {
-    font-family: 'Noto Sans JP';
-}
 body {
-    max-width: 640px;
-    margin: auto;
-    padding: 0.2rem 1rem;
-}
-div.h2 {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #121212; 
+    padding: 20px;
     display: flex;
+    margin: 0;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-h2::before {
-    content: "";
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: 2px solid #ffffff;
     display: inline-block;
-    width: 1.6em;
-    height: 0.1em;
-    background-color: #000000;
-    position: absolute;
-    top: 0.8em;
-    left: -2em;
+    padding-bottom: 10px;
+    isolation: isolate;
+    text-align: center;
+    margin-bottom: 800px;
 }
-h2::after {
-    content: "";
-    display: inline-block;
-    width: 1.6em;
-    height: 0.1em;
-    background-color: #000000;
-    position: absolute;
-    top: 0.8em;
-    right: -2em;
+
+article {
+    background-color: #1f1f1f; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 5px;
+    text-align: left; 
 }
-h2 {
-    position: relative;
+
+
+
+@media (max-width: 800px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .h2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .p p {
+        font-size: 1rem;
+    }
+
+    #menu div a {
+        font-size: 1rem;
+    }
 }
+
