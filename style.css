@@ -1,36 +1,141 @@
+body, h1, h2, p, div, a, header, article {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-* {
-    font-family: 'Noto Sans JP';
-}
 body {
-    max-width: 640px;
-    margin: auto;
-    padding: 0.2rem 1rem;
-}
-div.h2 {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #121212; 
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    margin: 0;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-h2::before {
-    content: "";
+
+a, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: 2px solid #ffffff;
     display: inline-block;
-    width: 1.6em;
-    height: 0.1em;
-    background-color: #333;
-    position: absolute;
-    top: 0.8em;
-    left: -2em;
+    padding-bottom: 10px;
 }
-h2::after {
-    content: "";
-    display: inline-block;
-    width: 1.6em;
-    height: 0.1em;
-    background-color: #333;
-    position: absolute;
-    top: 0.8em;
-    right: -2em;
+
+article {
+    background-color: #1f1f1f; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
+    padding: 12px 24px;
+    max-width: 1080px;
+    width: 100%;
+    margin: 4px;
+    text-align: left; 
 }
-h2 {
-    position: relative;
+
+select {
+    border: 1px solid #fff ;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 0.2rem;
+}
+
+option {
+    color: #fff;
+    background: #111;
+}
+
+button {
+    border: 1px solid #fff ;
+    border-radius: 1rem;
+    background: #fff;
+    color: #000;
+    padding: 0.1rem 0.6rem;
+}
+
+.h2 h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    margin: 24px 0 18px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.p p {
+    font-size: 1.2rem;
+    color: #ccc; 
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#menu div a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #121212; 
+    background-color: #fff; 
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+#menu div a:hover {
+    background-color: #e0e0e0; 
+    color: #000; 
+    transform: scale(1.04);
+}
+
+
+.comment {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #aaa; 
+}
+
+
+@media (max-width: 800px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .h2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .p p {
+        font-size: 1rem;
+    }
+
+    #menu div a {
+        font-size: 1rem;
+    }
 }
