@@ -13,8 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    max-width: 960px;
+    margin: auto;
     min-height: 100vh;
 }
 
@@ -28,8 +30,9 @@ a:hover {
 }
 
 header {
+    align-self: flex-start;
     text-align: center;
-    margin-bottom: 32px;
+    margin: 24px 16px 16px;
 }
 
 header h1 {
@@ -37,15 +40,14 @@ header h1 {
     color: #fff;
     border-bottom: 2px solid #ffffff;
     display: inline-block;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 
 article {
     background-color: #1f1f1f; 
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
-    padding: 12px 24px;
-    max-width: 1080px;
+    padding: 6px 24px 30px;
     width: 100%;
     margin: 4px;
     text-align: left; 
@@ -56,12 +58,16 @@ select {
     border-radius: 1rem;
     background: rgba(0, 0, 0, 0);
     color: #fff;
+    margin: 0.1rem;
     padding: 0.2rem;
+    height: 1.5rem;
+    max-width: 54vw;
 }
 
 option {
     color: #fff;
     background: #111;
+    max-width: 54vw;
 }
 
 button {
@@ -69,7 +75,10 @@ button {
     border-radius: 1rem;
     background: #fff;
     color: #000;
+    margin: 0.1rem;
     padding: 0.1rem 0.6rem;
+    height: 1.5rem;
+    max-width: 36vw;
 }
 
 .h2 h2 {
@@ -80,8 +89,13 @@ button {
     margin: 24px 0 18px;
 }
 
+h3 {
+    margin: 12px 2px 6px;
+
+}
+
 p {
-    margin-bottom: 1rem;
+    margin: 8px 4px 6px;
 }
 
 .p p {
