@@ -1,0 +1,342 @@
+[
+    {
+        "id": 0,
+        "title": "Bling-Bang-Bang-Born",
+        "artist": "Creepy Nuts",
+        "key": 0,
+        "bpm": "",
+        "chord": [
+            "Am",
+            "",
+            "E7",
+            "",
+            "Am",
+            "",
+            "E7",
+            ""
+        ]
+    },
+    {
+        "id": 1,
+        "title": "晩餐歌",
+        "artist": "tuki.",
+        "key": 8,
+        "bpm": "",
+        "chord": [
+            "Fm7",
+            "",
+            "Dbadd9",
+            "",
+            "Ebsus4",
+            "",
+            "Ab",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "title": "幾億光年",
+        "artist": "Omoinotake",
+        "key": 6,
+        "bpm": "",
+        "chord": [
+            "Gb",
+            "",
+            "Fm7-5",
+            "Bb7",
+            "Ebm7",
+            "",
+            "Dbm",
+            "Gb7"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "アイドル",
+        "artist": "YOASOBI",
+        "key": 0,
+        "bpm": "",
+        "chord": [
+            "FM7",
+            "",
+            "Em7",
+            "",
+            "Am7",
+            "",
+            "C",
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "title": "ライラック",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 10,
+        "bpm": "",
+        "chord": [
+            "Bb",
+            "",
+            "F7/Eb",
+            "",
+            "Bb/Eb",
+            "",
+            "Bb/F",
+            ""
+        ]
+    },
+    {
+        "id": 5,
+        "title": "ケセラセラ",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 11,
+        "bpm": "",
+        "chord": [
+            "B",
+            "",
+            "E",
+            "",
+            "F#",
+            "",
+            "F##dim",
+            ""
+        ]
+    },
+    {
+        "id": 6,
+        "title": "唱",
+        "artist": "Ado",
+        "key": 6,
+        "bpm": "",
+        "chord": [
+            "Ebm",
+            "",
+            "Db",
+            "",
+            "CbM7",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 7,
+        "title": "怪獣の花唄",
+        "artist": "Vaundy",
+        "key": 2,
+        "bpm": "",
+        "chord": [
+            "Gadd9",
+            "",
+            "A",
+            "",
+            "Bm7",
+            "",
+            "Dadd9",
+            ""
+        ]
+    },
+    {
+        "id": 8,
+        "title": "青と夏",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 4,
+        "bpm": "",
+        "chord": [
+            "E",
+            "",
+            "B/D#",
+            "",
+            "C#m",
+            "",
+            "E/B",
+            ""
+        ]
+    },
+    {
+        "id": 9,
+        "title": "ダンスホール",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 2,
+        "bpm": "",
+        "chord": [
+            "G",
+            "",
+            "D/A",
+            "",
+            "Bm7",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 10,
+        "title": "SPECIALZ",
+        "artist": "King Gnu",
+        "key": 9,
+        "bpm": "",
+        "chord": [
+            "F#m",
+            "",
+            "A",
+            "",
+            "D",
+            "",
+            "C#",
+            ""
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Soranji",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 5,
+        "bpm": "",
+        "chord": [
+            "F/A",
+            "",
+            "BbM7",
+            "",
+            "C",
+            "",
+            "C#dim",
+            ""
+        ]
+    },
+    {
+        "id": 12,
+        "title": "タイムパラドックス",
+        "artist": "Vaundy",
+        "key": 9,
+        "bpm": "",
+        "chord": [
+            "A",
+            "",
+            "Bm",
+            "",
+            "D",
+            "E",
+            "A",
+            "E/G#"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "勇者",
+        "artist": "YOASOBI",
+        "key": 10,
+        "bpm": "",
+        "chord": [
+            "EbM7",
+            "",
+            "F",
+            "",
+            "Dm",
+            "",
+            "Gm",
+            ""
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Magnetic",
+        "artist": "ILLIT",
+        "key": 0,
+        "bpm": "",
+        "chord": [
+            "FM7",
+            "",
+            "E7",
+            "",
+            "Am7",
+            "",
+            "Gm7",
+            ""
+        ]
+    },
+    {
+        "id": 15,
+        "title": "GOAT",
+        "artist": "Number_i",
+        "key": 7,
+        "bpm": "",
+        "chord": [
+            "Em",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 16,
+        "title": "花になって",
+        "artist": "緑黄色社会",
+        "key": 10,
+        "bpm": "",
+        "chord": [
+            "Cm",
+            "",
+            "F",
+            "",
+            "Gm",
+            "",
+            "Gm",
+            ""
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Magic",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 7,
+        "bpm": "",
+        "chord": [
+            "C",
+            "",
+            "G",
+            "",
+            "D",
+            "",
+            "Em",
+            ""
+        ]
+    },
+    {
+        "id": 18,
+        "title": "点描の唄 feat.井上苑子",
+        "artist": "Mrs.GREEN APPLE",
+        "key": 0,
+        "bpm": "",
+        "chord": [
+            "Am7",
+            "",
+            "F",
+            "",
+            "Gsus4",
+            "G",
+            "C",
+            ""
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Subtitle",
+        "artist": "Official髭男dism",
+        "key": 6,
+        "bpm": 130,
+        "chord": [
+            "CbM7",
+            "",
+            "Db6",
+            "",
+            "Bb7-9",
+            "",
+            "Ebm7",
+            ""
+        ]
+    }
+]
