@@ -135,6 +135,47 @@ p {
     color: #aaa; 
 }
 
+/* 結果表示画面 */
+
+#result .head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 0.4rem 0.1rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .slash {
+    padding: 0.2rem;
+  }
+
+  .artist {
+    margin-right: 0.2rem;
+  }
+
+  .chord-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 0.4rem 0.1rem;
+  }
+
+  .progression {
+    font-size: 1.2rem;
+  }
+
+  .key {
+    margin-left: 0.4rem;
+  }
+
+  .rank-block {
+    /* display: flex; */
+    display: none;
+    margin: 0.4rem 0.1rem;
+  }
 
 @media (max-width: 800px) {
     header h1 {
